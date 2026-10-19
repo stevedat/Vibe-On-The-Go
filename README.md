@@ -1,13 +1,13 @@
 # NidoBridge: Vibe On The Go
 
-**Remote AI Agent & Workspace Continuity for iPhone, iPad, and Mac.**
+Remote AI Agent & Workspace Continuity for iPhone, iPad, and Mac.
 
 NidoBridge connects your iPhone and iPad directly to your Mac workspace and active AI coding sessions (Claude Code, Gemini CLI) with instant QR pairing and end-to-end local control.
 
 ## Downloads
 
-- **iPhone & iPad:** Available on the Apple App Store
-- **macOS Host (Menu Bar Hub):** [Download NidoBridge-Mac.zip (v1.0.0)](https://github.com/stevedat/Vibe-On-The-Go/releases/latest) *(Signed with Apple Developer ID)*
+- iPhone & iPad:** Available on the Apple App Store
+- macOS Host (Menu Bar Hub):** [Download NidoBridge-Mac.zip (v1.0.0)](https://github.com/stevedat/Vibe-On-The-Go/releases/latest) 
 
 ## Documentation & Legal
 
