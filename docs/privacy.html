@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Privacy Policy — NidoBridge</title>
+  <meta name="description" content="Privacy Policy for NidoBridge for iPhone, iPad, Apple Watch, and Mac." />
+  <style>
+    :root {
+      --bg: #faf9f6;
+      --surface: #ffffff;
+      --ink: #141413;
+      --muted: #666560;
+      --border: #e6e4dd;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.68;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 56px 24px 80px;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 28px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 44px;
+    }
+    .brand {
+      font-weight: 600;
+      font-size: 1.05rem;
+      letter-spacing: -0.01em;
+      color: var(--ink);
+      text-decoration: none;
+    }
+    nav {
+      display: flex;
+      gap: 20px;
+      font-size: 0.9rem;
+    }
+    nav a {
+      color: var(--muted);
+      text-decoration: none;
+    }
+    nav a:hover, nav a.active {
+      color: var(--ink);
+    }
+    h1 {
+      font-size: 1.85rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      margin-bottom: 8px;
+    }
+    .updated {
+      font-size: 0.88rem;
+      color: var(--muted);
+      margin-bottom: 32px;
+    }
+    h2 {
+      font-size: 1.12rem;
+      font-weight: 600;
+      margin-top: 28px;
+      margin-bottom: 10px;
+    }
+    p, li {
+      font-size: 0.96rem;
+      color: #2c2b29;
+      margin-bottom: 12px;
+    }
+    ul {
+      padding-left: 20px;
+      margin-bottom: 16px;
+    }
+    .notice {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px 18px;
+      margin-bottom: 28px;
+      font-size: 0.94rem;
+    }
+    footer {
+      margin-top: 56px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      font-size: 0.84rem;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+    }
+    footer a {
+      color: var(--muted);
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a class="brand" href="./index.html">NidoBridge</a>
+      <nav>
+        <a href="./index.html">Overview</a>
+        <a class="active" href="./privacy.html">Privacy</a>
+        <a href="./terms.html">Terms</a>
+        <a href="./support.html">Support</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Privacy Policy</h1>
+      <p class="updated">Effective Date: October 17, 2026</p>
+
+      <div class="notice">
+        <strong>Summary:</strong> NidoBridge does not collect, sell, rent, or track your personal data. All workspace sessions and commands stay between your Apple devices and your own Mac.
+      </div>
+
+      <h2>1. Data Collection &amp; Tracking</h2>
+      <p>
+        NidoBridge is built on a strict zero-tracking policy. We do not require you to create an account, and we do not collect personal identifiers, analytics profiles, advertising identifiers, or usage telemetry. In accordance with Apple's Privacy Manifest standards, tracking is disabled (<code>NSPrivacyTracking = false</code>).
+      </p>
+
+      <h2>2. How Your Devices Communicate</h2>
+      <ul>
+        <li><strong>Direct Connection:</strong> Your iPhone, iPad, or Apple Watch connects directly to the companion service running on your own Mac over your local network or your configured private connection.</li>
+        <li><strong>Ephemeral Pairing Codes:</strong> When you use a 6-character pairing code to connect outside your local network, an encrypted connection offer is temporarily held in memory only until your device claims it (or until it expires automatically) and is immediately deleted upon claim.</li>
+        <li><strong>Device Credentials:</strong> Pairing tokens are stored locally inside the Apple Keychain on your device and can be revoked at any time with a single click from your Mac or iPhone.</li>
+      </ul>
+
+      <h2>3. Device Permissions</h2>
+      <p>NidoBridge requests system permissions only when you actively use the corresponding feature:</p>
+      <ul>
+        <li><strong>Camera:</strong> Used solely to scan the pairing QR code displayed on your Mac. Camera frames are processed on-device and are never stored or transmitted.</li>
+        <li><strong>Microphone &amp; Speech Recognition:</strong> Used solely when you tap the voice input button to dictate an instruction. You may revoke Microphone or Speech permissions at any time in iOS Settings.</li>
+        <li><strong>Local Network:</strong> Used to establish a direct connection between your mobile device and your Mac on the same Wi-Fi network.</li>
+      </ul>
+
+      <h2>4. Purchases &amp; Subscriptions</h2>
+      <p>
+        Optional Pro subscriptions and lifetime unlocks are processed directly by Apple via the App Store (StoreKit). NidoBridge never receives or stores your payment card details or billing address.
+      </p>
+
+      <h2>5. Your Control &amp; Data Deletion</h2>
+      <p>
+        Because your workspace history and pairing state reside locally on your own devices, you have complete control over your data. Unpairing your device or uninstalling the app immediately removes stored connection credentials from your device Keychain.
+      </p>
+
+      <h2>6. Contact</h2>
+      <p>
+        If you have questions about this Privacy Policy, please visit our <a href="./support.html">Support page</a>.
+      </p>
+    </main>
+
+    <footer>
+      <span>&copy; 2026 NidoBridge. All rights reserved.</span>
+      <span>
+        <a href="./privacy.html">Privacy</a> &middot;
+        <a href="./terms.html">Terms</a> &middot;
+        <a href="./support.html">Support</a>
+      </span>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Support — NidoBridge</title>
+  <meta name="description" content="Getting started guide, frequently asked questions, and support for NidoBridge." />
+  <style>
+    :root {
+      --bg: #faf9f6;
+      --surface: #ffffff;
+      --ink: #141413;
+      --muted: #666560;
+      --border: #e6e4dd;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.68;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 56px 24px 80px;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 28px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 44px;
+    }
+    .brand {
+      font-weight: 600;
+      font-size: 1.05rem;
+      letter-spacing: -0.01em;
+      color: var(--ink);
+      text-decoration: none;
+    }
+    nav {
+      display: flex;
+      gap: 20px;
+      font-size: 0.9rem;
+    }
+    nav a {
+      color: var(--muted);
+      text-decoration: none;
+    }
+    nav a:hover, nav a.active {
+      color: var(--ink);
+    }
+    h1 {
+      font-size: 1.85rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
+      margin-bottom: 12px;
+    }
+    .lead {
+      font-size: 1rem;
+      color: var(--muted);
+      margin-bottom: 32px;
+    }
+    h2 {
+      font-size: 1.12rem;
+      font-weight: 600;
+      margin-top: 28px;
+      margin-bottom: 12px;
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 18px 20px;
+      margin-bottom: 14px;
+    }
+    .card h3 {
+      font-size: 0.98rem;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+    .card p {
+      font-size: 0.93rem;
+      color: var(--muted);
+    }
+    ol {
+      padding-left: 20px;
+      margin-bottom: 24px;
+    }
+    li {
+      font-size: 0.96rem;
+      color: #2c2b29;
+      margin-bottom: 10px;
+    }
+    footer {
+      margin-top: 56px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      font-size: 0.84rem;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+    }
+    footer a {
+      color: var(--muted);
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a class="brand" href="./index.html">NidoBridge</a>
+      <nav>
+        <a href="./index.html">Overview</a>
+        <a href="./privacy.html">Privacy</a>
+        <a href="./terms.html">Terms</a>
+        <a class="active" href="./support.html">Support</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Support &amp; Quick Start</h1>
+      <p class="lead">Everything you need to connect your iPhone or iPad with your Mac.</p>
+
+      <h2>Quick Setup in 3 Steps</h2>
+      <ol>
+        <li>Open <strong>NidoBridge Host</strong> on your Mac menu bar to display your pairing QR code or 6-character code.</li>
+        <li>Open <strong>NidoBridge</strong> on your iPhone or iPad and tap <strong>Scan QR</strong> (or enter the 6-character code).</li>
+        <li>Your active workspace sessions will appear immediately.</li>
+      </ol>
+
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="card">
+        <h3>How do I disconnect or switch to another iPhone/iPad?</h3>
+        <p>Click the NidoBridge icon in your Mac menu bar and select <strong>Revoke &amp; Disconnect</strong>, or tap <strong>Disconnect</strong> inside the iOS Controls sheet. Only one mobile device can remain paired at a time.</p>
+      </div>
+
+      <div class="card">
+        <h3>How do I restore my NidoBridge Pro purchase?</h3>
+        <p>Open NidoBridge on your iPhone or iPad, open the Pro membership sheet, and tap <strong>Restore Purchases</strong> at the bottom of the screen.</p>
+      </div>
+
+      <div class="card">
+        <h3>Why does the app ask for Microphone or Camera access?</h3>
+        <p>Camera access is only used to scan the pairing QR code on your Mac. Microphone and Speech Recognition access are only used when you tap the voice button to dictate a command. Both are optional.</p>
+      </div>
+
+      <div class="card">
+        <h3>Need additional help?</h3>
+        <p>If you encounter an issue or have feedback, please open an issue on our official GitHub repository or reach out through the support link listed on the App Store product page.</p>
+      </div>
+    </main>
+
+    <footer>
+      <span>&copy; 2026 NidoBridge. All rights reserved.</span>
+      <span>
+        <a href="./privacy.html">Privacy</a> &middot;
+        <a href="./terms.html">Terms</a> &middot;
+        <a href="./support.html">Support</a>
+      </span>
+    </footer>
+  </div>
+</body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NidoBridge — Remote Workspace Companion for Mac &amp; iOS</title>
+  <meta name="description" content="Monitor active workspace sessions, review pending confirmations, and send voice or text instructions to your Mac from iPhone, iPad, and Apple Watch." />
+  <style>
+    :root {
+      --bg: #faf9f6;
+      --surface: #ffffff;
+      --ink: #141413;
+      --muted: #666560;
+      --border: #e6e4dd;
+      --accent: #d9653b;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--ink);
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+    .wrap {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 56px 24px 80px;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 28px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 44px;
+    }
+    .brand {
+      font-weight: 600;
+      font-size: 1.05rem;
+      letter-spacing: -0.01em;
+      color: var(--ink);
+      text-decoration: none;
+    }
+    nav {
+      display: flex;
+      gap: 20px;
+      font-size: 0.9rem;
+    }
+    nav a {
+      color: var(--muted);
+      text-decoration: none;
+    }
+    nav a:hover, nav a.active {
+      color: var(--ink);
+    }
+    h1 {
+      font-size: 2rem;
+      font-weight: 600;
+      letter-spacing: -0.025em;
+      line-height: 1.25;
+      margin-bottom: 16px;
+    }
+    .lead {
+      font-size: 1.08rem;
+      color: var(--muted);
+      margin-bottom: 36px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+      margin-bottom: 44px;
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px 22px;
+    }
+    .card h2 {
+      font-size: 1rem;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+    .card p {
+      font-size: 0.93rem;
+      color: var(--muted);
+    }
+    .links-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 8px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 16px;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: var(--surface);
+      color: var(--ink);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
+    }
+    .btn:hover {
+      border-color: var(--ink);
+    }
+    footer {
+      margin-top: 56px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      font-size: 0.84rem;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: gap;
+    }
+    footer a {
+      color: var(--muted);
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a class="brand" href="./index.html">NidoBridge</a>
+      <nav>
+        <a class="active" href="./index.html">Overview</a>
+        <a href="./privacy.html">Privacy</a>
+        <a href="./terms.html">Terms</a>
+        <a href="./support.html">Support</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Stay connected to your Mac workspace from anywhere.</h1>
+      <p class="lead">
+        NidoBridge is a clean companion app for iPhone, iPad, Apple Watch, and Mac. View active sessions, approve pending prompts, and send voice or text instructions to your own computer with a single tap.
+      </p>
+
+      <div class="grid">
+        <div class="card">
+          <h2>Direct 1-to-1 Pairing</h2>
+          <p>Pair your iPhone or iPad with your Mac using a one-time QR code or a short pairing code. Only one mobile device is authorized at a time, and you can disconnect it instantly from the Mac menu bar.</p>
+        </div>
+        <div class="card">
+          <h2>Quick Confirmations &amp; Live Status</h2>
+          <p>See when a task on your Mac is waiting for your confirmation and respond from your iPhone, iPad, Lock Screen Live Activity, or Apple Watch.</p>
+        </div>
+        <div class="card">
+          <h2>Multilingual Voice &amp; Text Input</h2>
+          <p>Dictate instructions naturally in 10 supported languages or use quick action presets tailored to your workflow.</p>
+        </div>
+      </div>
+
+      <div class="links-row">
+        <a class="btn" href="./privacy.html">Privacy Policy</a>
+        <a class="btn" href="./terms.html">Terms of Use (EULA)</a>
+        <a class="btn" href="./support.html">Support &amp; FAQ</a>
+      </div>
+    </main>
+
+    <footer>
+      <span>&copy; 2026 NidoBridge. All rights reserved.</span>
+      <span>
+        <a href="./privacy.html">Privacy</a> &middot;
+        <a href="./terms.html">Terms</a> &middot;
+        <a href="./support.html">Support</a>
+      </span>
+    </footer>
+  </div>
+</body>
+</html>
